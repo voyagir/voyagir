@@ -4,17 +4,15 @@
 
 body {
   font-family: 'Open-Sans', sans-serif;
+  overflow-x: hidden;
 }
-
 h1 {
-  font-size: 7vw;
+  font-size: 60px;
 }
-
 h1, h3 {
   font-family: 'Sue Ellen Francisco', cursive;
   color: white;
 }
-
 h4 {
   color: white;
 }
@@ -23,32 +21,95 @@ h4 {
 
    ========================================================================== */
 
-.section {
-  height: auto;
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
 }
-
+section {
+  display: flex;
+  padding: 20px 0;
+}
 .paysage {
-  padding: 200px 0;
+  min-height: 500px;
 }
-
 .text {
   background-color: #f8f8f0;
+}
+.div_button {
+  display: flex;
 }
 
 /*
 
    ========================================================================== */
 
+
+/*debut navbar*/
+
+.navbar {
+  border: none;
+  margin: 0;
+  z-index: 1;
+}
+.navbar .container-fluid {
+  background-color: #33CCAF;
+}
+.navbar-brand {
+  padding: 5px;
+  padding-left: 2em;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #444485;
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 1.8em;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 45px;
+}
+.navbar-right {
+  padding-right: 2em;
+}
+.nav>li>a>img {
+  margin-top: 8px;
+}
+.dropdown-menu {
+  background-color: #33CCAF;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  background-color: #33CCAF;
+}
+.dropdown-menu>li>a {
+  font-family: 'Sue Ellen Francisco', cursive;
+  color: #444485;
+  font-size: 24px;
+}
+.dropdown-menu>li>a:hover {
+  color: #262626;
+  text-decoration: none;
+  background-color: #33CCAF;
+}
+.nav li .iconftp {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+/*fin navbar*/
+
+
+/*
+
+   ========================================================================== */
+
 #voyacteur {
+  flex-direction: column;
   color: white;
   background-image: url('../image/img3lp.JPG');
   background-size: cover;
+  justify-content: flex-end;
 }
-
-#voyacteur button, #other button {
-  padding: 5px 10px;
+#voyacteur button {
   color: #434385;
-  border-radius: 10px;
   background-color: #ebc84c;
 }
 
@@ -60,10 +121,14 @@ h4 {
   display: flex;
   flex-direction: column;
 }
-
 #inform img {
   height: 100px;
   margin: auto;
+}
+#inform button {
+  margin: 20px auto;
+  color: white;
+  background-color: #434385;
 }
 
 /*
@@ -74,12 +139,10 @@ h4 {
   text-align: center;
   color: #434385;
 }
-
 #partage h3, #partage p {
   text-align: center;
   color: #ebc84c;
 }
-
 #organise h3, #organise p {
   text-align: center;
   color: #ff2554;
@@ -93,22 +156,35 @@ h4 {
   text-align: right;
   color: white;
   background-image: url('../image/img1lp.jpg');
+  background-position: center;
   background-size: cover;
+  justify-content: center;
+}
+#other button {
+  color: white;
+  background-color: #434385;
 }
 
 /*
 
    ========================================================================== */
 
-#gandhi {
+#ghandi {
   text-align: right;
   background-image: url('../image/img2lp.JPG');
+  background-position: center;
   background-size: cover;
+  justify-content: center;
+}
+#ghandi h1 {
+  font-size: 40px;
+  widthh: 500px;
 }
 
-#ghandi h3 {
-  font-size: 70px;
-}
+/*#ghandi .container {
+  padding-top: 200px;
+}*/
+
 
 /*
 
@@ -117,65 +193,62 @@ h4 {
 #recommandations, #inform {
   padding: 50px 0;
 }
-
 #recommandations h3 {
+  font-size: 40px;
   color: #33ccaf;
 }
-
 #recommandations article {
   display: flex;
   flex-direction: column;
+  margin: 20px 0;
 }
-
+#recommandations img {
+  margin: auto;
+}
+#recommandations p {
+  margin: 10px auto;
+  text-align: center;
+}
 #recommandations button {
-  padding: 5px 10px;
+  margin: 20px auto;
   color: white;
-  border-style: solid;
   background-color: #33ccaf;
 }
-
 .def_rec {
   color: grey;
 }
-
 .couleur {
   padding: 30px 0;
   background-color: #33ccaf;
 }
-
 .percent {
   width: 200px;
   margin: 20px;
 }
-
 .percent p {
   font-family: 'Sue Ellen Francisco', cursive;
   font-size: 75px;
   height: 150px;
   margin: auto;
 }
-
 #vert {
   color: #33ccaf;
   background-image: url('../image/rondvert.png');
   background-repeat: no-repeat;
   background-position: center;
 }
-
 #jaune {
   color: #ebc84c;
   background-image: url('../image/rondjaune.png');
   background-repeat: no-repeat;
   background-position: center;
 }
-
 #rouge {
   color: #ff2554;
   background-image: url('../image/rondrouge.png');
   background-repeat: no-repeat;
   background-position: center;
 }
-
 #bleu {
   color: #434385;
   background-image: url('../image/rondbleu.png');
@@ -188,46 +261,107 @@ h4 {
    ========================================================================== */
 
 #contact {
+  padding: 50px 0;
+  color: #ebc84c;
   background-color: #434385;
 }
-
+#contact h3 {
+  font-size: 40px;
+  color: #ebc84c;
+}
+#contact h4 {
+  margin: 0 0 0 5px;
+  color: #33ccaf;
+}
 #contactez {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+}
+.enveloppe {
   display: inline-flex;
 }
-
+.enveloppe div {
+  margin-left: 10px;
+}
+#suivez {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+}
+.nous {
+  color: #33ccaf;
+}
 #lettre {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
+}
+#fleche {
+  width: 100px;
+  height: 100px;
+}
+.liens {
+  display: flex;
+  flex-direction: column;
+  padding-left: 110px;
+}
+.liens img {
+  width: 25px;
+  height: 25px;
+}
+.liens h4 {
+  font-size: 12px;
+}
+.liens p {
+  font-size: 16px;
+}
+
+/*#mail, #telephone, #map {
+  display: inline-flex;
+}*/
+
+.contact_social {
+  display: flex;
+  flex-direction: column;
+  margin-left: 110px;
+  justify-content: space-between;
+}
+.contact_social img {
+  width: 30px;
 }
 
 /*
 
    ========================================================================== */
 
+footer .special {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  justify-content: center;
+}
 footer .text {
   padding: 50px 0;
 }
-
 footer button {
-  margin: auto;
+  margin: 20px auto;
+  color: white;
+  background-color: #434385;
 }
-
 footer img {
   width: 20px;
   height: auto;
+  margin: 5px;
 }
-
 footer .text p {
   font-size: 16px;
   text-align: center;
   color: #434385;
 }
-
 .couleur p, .socialf {
   text-align: center;
   color: white;
 }
-
 footer a {
   text-decoration: none;
   color: white;
