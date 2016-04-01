@@ -22,11 +22,51 @@
    padding: 30px;
   background-color: #33CCAF;
 }
+#recommandations article{
+  display: flex;
+  flex-direction: column;
+}
+.percent{
+  display: flex;
+
+}
+.percent p{
+  margin: auto;
+  height: 150px;
+  font-family: 'Sue Ellen Francisco', cursive;
+font-size: 75px;
+/*text-align: center;*/
+}
+#vert{
+  color:#33CCAF;
+  background-image: url("../image/rondvert.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#jaune{
+  color:#EBC84C;
+  background-image: url("../image/rondjaune.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#rouge{
+  color:#FF2554;
+  background-image: url("../image/rondrouge.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#bleu{
+  color:#434385;
+  background-image: url("../image/rondbleu.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 footer img{
   width: 20px;
   height: auto;
 }
-footer p{
+.couleur p{
   text-align: center;
   color: white;
 }
