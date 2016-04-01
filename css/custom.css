@@ -215,6 +215,9 @@ section{
   padding: 10px;
 
 }
+.enveloppe{
+  display: inline-flex;
+}
 #suivez{
   padding: 10px;
 }
@@ -231,6 +234,9 @@ section{
 }
 #mail,#telephone,#map{
   display: inline-flex;
+}
+.contact_social img{
+  width: 30px;
 }
 /*
 
