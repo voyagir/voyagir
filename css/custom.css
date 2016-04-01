@@ -28,6 +28,7 @@ button {
 }
 section {
   display: flex;
+  flex-direction: column;
   padding: 20px 0;
 }
 .paysage {
@@ -39,6 +40,63 @@ section {
 .div_button {
   display: flex;
 }
+
+/*
+
+   ========================================================================== */
+
+
+/*debut navbar*/
+
+.navbar {
+  border: none;
+  margin: 0;
+  z-index: 1;
+}
+.navbar .container-fluid {
+  background-color: #33CCAF;
+}
+.navbar-brand {
+  padding: 5px;
+  padding-left: 2em;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #444485;
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 1.8em;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 45px;
+}
+.navbar-right {
+  padding-right: 2em;
+}
+.nav>li>a>img {
+  margin-top: 8px;
+}
+.dropdown-menu {
+  background-color: #33CCAF;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  background-color: #33CCAF;
+}
+.dropdown-menu>li>a {
+  font-family: 'Sue Ellen Francisco', cursive;
+  color: #444485;
+  font-size: 24px;
+}
+.dropdown-menu>li>a:hover {
+  color: #262626;
+  text-decoration: none;
+  background-color: #33CCAF;
+}
+.nav li .iconftp {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+/*fin navbar*/
+
 
 /*
 
@@ -104,8 +162,8 @@ section {
   justify-content: center;
 }
 #other button {
-  color: white;
-  background-color: #434385;
+  color: #434385;
+  background-color: #ebc84c;
 }
 
 /*
@@ -117,15 +175,14 @@ section {
   background-image: url('../image/img2lp.JPG');
   background-position: center;
   background-size: cover;
+  display: flex;
   justify-content: center;
 }
 #ghandi h1 {
   font-size: 40px;
   widthh: 500px;
 }
-#ghandi .container {
-  padding-top: 200px;
-}
+
 
 /*
 
@@ -220,9 +277,11 @@ section {
   padding: 10px 30px;
 }
 .enveloppe {
-  display: inline-flex;
+  display: flex;
+  flex-direction: column;
 }
 .enveloppe div {
+  display: flex;
   margin-left: 10px;
 }
 #suivez {
@@ -233,44 +292,48 @@ section {
 .nous {
   color: #33ccaf;
 }
-#lettre {
-  width: 100px;
-  height: 100px;
-}
-#fleche {
-  width: 100px;
-  height: 100px;
+#lettre,#fleche {
+  width: 75px;
+  height: 75px;
 }
 .liens {
   display: flex;
   flex-direction: column;
-  padding-left: 110px;
+  /*padding-left: 110px;*/
 }
 .liens img {
-  width: 25px;
-  height: 25px;
+  vertical-align: baseline;
+  width: 15px;
+  height: 15px;
 }
 .liens h4 {
   font-size: 12px;
 }
 .liens p {
+  vertical-align: baseline;
   font-size: 16px;
 }
+.items{
+  display: flex;
+  flex-direction: column;
+}
+.items div{
+  display: flex;
 
-/*#mail, #telephone, #map {
-  display: inline-flex;
-}*/
+}
 
 .contact_social {
   display: flex;
   flex-direction: column;
-  margin-left: 110px;
   justify-content: space-between;
 }
 .contact_social img {
+  margin: 10px ;
   width: 30px;
 }
-
+/*.contact_social div a{
+  margin: 0 10px;
+}*/
 /*
 
    ========================================================================== */

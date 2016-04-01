@@ -20,7 +20,46 @@
 <body>
   <!-- START HEADER=================================== -->
   <header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid container-profil">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <img src="image/logo-blanc-redimensionne.png" alt="logo" class="navbar-brand img-responsive" />
+        </div>
 
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Projet <span class="sr-only">(current)</span></a></li>
+            <li><a href="#contact" id="lien_contact">Contact</a></li>
+            <li><a href="#">Participer</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Partir <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="catalogue.html">Costa rica</a></li>
+                <li><a href="catalogue.html">Panama</a></li>
+              </ul>
+            </li>
+            <li><a href="http://blog.voyagir.fr">Blog</a></li>
+            <li>
+              <a href="http://facebook.com/voyagir" class="iconftp"><img class="img-responsive" src="image/facebook-15b-redim2.png" alt="facebook" /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/voyagir" class="iconftp"><img class="img-responsive" src="image/twitter-15b-redim2.png" alt="twitter" /></a>
+            </li>
+            <li>
+              <a href="http://pinterest.com/voyagir" class="iconftp"><img class="img-responsive" src="image/pinterest-bleu-redim.png" alt="facebook" /></a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
   <!-- HEADER END============================================= -->
 
@@ -134,13 +173,15 @@
       <div class="row">
         <div class="col-md-6 col-xs-12" id="contactez">
           <div class="enveloppe">
-            <img src="image/enveloppe-10j.png" alt="contact" id="lettre" />
             <div>
+            <img src="image/enveloppe-10j.png" alt="contact" id="lettre" />
+
               <h3>Contactez-<span class="nous">Nous</span></h3>
+              </div>
               <p>
                 Posez-nous vos questions, dîtes-nous ce qui vous plaît dans le projet… Nous souhaitons construire cette plateforme avec vous, alors... Dîtes-nous tout !
               </p>
-            </div>
+
           </div>
           <div class="liens">
             <div class="items" id="mail">
@@ -173,18 +214,23 @@
         </div>
         <div class="col-md-6 col-xs-12" id="suivez">
           <div class="enveloppe">
-            <img src="image/fleche.png" alt="contact" id="fleche" />
             <div>
+            <img src="image/fleche.png" alt="contact" id="fleche" />
+
               <h3>Suivez-<span class="nous">Nous</span></h3>
+              </div>
               <p>
                 Pendant le développement du projet nous essayons de répondre à vos besoin au travers des réseaux sociaux et de notre blog
               </p>
-            </div>
+
           </div>
           <div class="contact_social">
-            <a href="https://www.facebook.com/voyagir"><img src="image/facebook-15v.png" alt="f" /></a>
-            <a href="https://twitter.com/voyagir"><img src="image/twitter-15v.png" alt="tw" /></a>
-            <a href="https://fr.pinterest.com/marinethica/voyagir-inspiration/"><img src="image/pinterest-v.png" alt="" /></a>
+            <div>
+              <a href="https://www.facebook.com/voyagir"><img src="image/facebook-15v.png" alt="f" /></a>
+              <a href="https://twitter.com/voyagir"><img src="image/twitter-15v.png" alt="tw" /></a
+                
+              <a href="https://fr.pinterest.com/marinethica/voyagir-inspiration/"><img src="image/pinterest-v.png" alt="" /></a>
+            </div>
             <a href="http://blog.voyagir.fr/"><img src="image/blog-img-v.png" alt="" />www.blog.voyagir.fr</a>
           </div>
         </div>
@@ -221,12 +267,23 @@
   </footer>
 
   <!-- FOOTER END========================================= -->
-  
+
   <!-- js -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script type="text/javascript" src="js/myjs.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js">
   </script>
+  <script type="text/javascript">
+    $('#lien_contact').on('click', function() //smooth scroll
+      {
+        var page = $(this).attr('href'); // Page cible
+        var speed = 1000; // Durée de l'animation (en ms)
+        $('html, body').animate({
+          scrollTop: $(page).offset().top
+        }, speed); // Go
+      });
+  </script>
+
 </body>
 
 </html>
