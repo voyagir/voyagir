@@ -1,86 +1,144 @@
 /*LANDING PAGE========================*/
-#voyacteur{
-  background-image: url("../image/img3lp.JPG");
-  background-size: cover;
+
+body {
+  font-family: 'Open-Sans', sans-serif;
 }
-#other{
+
+h1 {
+  font-size: 7vw;
+}
+h1, h3 {
+  font-family: 'Sue Ellen Francisco', cursive;
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
+#voyacteur {
+  background-image: url('../image/img3lp.JPG');
+  background-size: cover;
+  color:white;
+}
+#voyacteur button, #other button{
+  color: #434385;
+  background-color:#ebc84c;
+  border-style: solid;
+  border-color: #9D7C12;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+#other {
+  text-align: right;
   background-image: url('../image/img1lp.jpg');
   background-size: cover;
+  color: white;
 }
-#gandhi{
+
+#gandhi {
+  text-align: right;
   background-image: url('../image/img2lp.JPG');
   background-size: cover;
 }
-
-.section{
-  height: auto;
+#ghandi h3 {
+  font-size: 70px;
 }
-.paysage{
-  padding: 200px;
+#recommandations, #info{
+  padding: 50px;
 }
- .couleur{
-   padding: 30px;
-  background-color: #33CCAF;
-}
-#recommandations article{
+#recommandations article {
   display: flex;
   flex-direction: column;
 }
-.percent{
+#recommandations button{
+  color: #33ccaf;
+  background-color:white;
+  padding: 5px 10px;
+  border-radius: 10px;
+
+}
+.section {
+  height: auto;
+}
+
+.paysage {
+  padding: 200px;
+}
+
+.text {
+  background-color: #f8f8f0;
+}
+
+.couleur {
+  padding: 30px;
+  background-color: #33ccaf;
+}
+
+
+.percent {
   display: flex;
-
 }
-.percent p{
-  margin: auto;
-  height: 150px;
+
+.percent p {
   font-family: 'Sue Ellen Francisco', cursive;
-font-size: 75px;
-/*text-align: center;*/
-}
-#vert{
-  color:#33CCAF;
-  background-image: url("../image/rondvert.png");
-  background-position: center;
-  background-repeat: no-repeat;
-}
-#jaune{
-  color:#EBC84C;
-  background-image: url("../image/rondjaune.png");
-  background-position: center;
-  background-repeat: no-repeat;
-}
-#rouge{
-  color:#FF2554;
-  background-image: url("../image/rondrouge.png");
-  background-position: center;
-  background-repeat: no-repeat;
-}
-#bleu{
-  color:#434385;
-  background-image: url("../image/rondbleu.png");
-  background-position: center;
-  background-repeat: no-repeat;
+  font-size: 75px;
+  height: 150px;
+  margin: auto;
+  /*text-align: center;*/
 }
 
-footer img{
+#vert {
+  color: #33ccaf;
+  background-image: url('../image/rondvert.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#jaune {
+  color: #ebc84c;
+  background-image: url('../image/rondjaune.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#rouge {
+  color: #ff2554;
+  background-image: url('../image/rondrouge.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#bleu {
+  color: #434385;
+  background-image: url('../image/rondbleu.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer .text {
+  padding: 50px;
+}
+footer button{
+  margin: auto;
+}
+footer img {
   width: 20px;
   height: auto;
 }
-.couleur p{
+
+footer .text p {
+  font-size: 16px;
+  text-align: center;
+  color: #434385;
+}
+
+.couleur p, .social {
   text-align: center;
   color: white;
 }
-footer a{
+
+footer a {
   text-decoration: none;
-  color: white;
-}
-h1,h3{
-  color: white;
-  font-family: 'Sue Ellen Francisco', cursive;
-}
-#ghandi h3{
-  font-size: 70px;
-}
-h4{
   color: white;
 }
