@@ -3,6 +3,24 @@ body{
     font-family: "Open Sans";
 }
 
+.menugauche, .boutongauche{
+    width: 70rem;
+}
+
+.lienmenugauche{
+    text-decoration: none;
+    color:#f8f8f0;
+}
+
+.menugauche{
+    background-color: #444485;
+    color:#f8f8f0;
+}
+
+.boutongauche{
+    text-align: left;
+}
+
 .nometablissement{
     display: inline-block;
     margin-bottom: 0px;
@@ -41,8 +59,18 @@ a:hover{
     margin-bottom: 2rem;
 }
 
+.divlogo{
+    margin-right: 20px;
+}
+
+.imglogo{
+    width: 3rem;
+    display: inline-block;;
+}
+
 .lestags{
-    margin-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 .cataloguetags a{
