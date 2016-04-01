@@ -132,8 +132,12 @@ section {
   color: #33ccaf;
 }
 #recommandations article {
+  margin: 20px;
   display: flex;
   flex-direction: column;
+}
+#recommandations article img, #recommandations article p {
+  margin: auto;
 }
 #recommandations button {
   margin: 20px auto;
@@ -207,27 +211,50 @@ section {
 .enveloppe {
   display: inline-flex;
 }
+.enveloppe div {
+  margin-left: 10px;
+}
 #suivez {
+  display: flex;
+  flex-direction: column;
   padding: 10px 30px;
 }
 .nous {
   color: #33ccaf;
 }
 #lettre {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
+}
+#fleche {
+  width: 100px;
+  height: 100px;
+}
+.liens {
+  padding-left: 110px;
+  display: flex;
+  flex-direction: column;
 }
 .liens img {
   width: 25px;
   height: 25px;
 }
-#mail, #telephone, #map {
-  display: inline-flex;
+.liens h4 {
+  font-size: 12px;
 }
+.liens p {
+  font-size: 16px;
+}
+
+/*#mail, #telephone, #map {
+  display: inline-flex;
+}*/
+
 .contact_social {
+  margin-left: 110px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .contact_social img {
   width: 30px;
