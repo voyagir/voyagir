@@ -12,6 +12,7 @@
     <title>profil</title>
 
     <!-- police google et font-awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco" rel="stylesheet" type="text/css">
 
 
@@ -25,7 +26,7 @@
 <body>
     <!-- START HEADER=================================== -->
     <header>
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -42,29 +43,29 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#">Projet <span class="sr-only">(current)</span></a></li>
                         <li><a href="#">Contact</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li><a href="http://blog.voyagir.fr">Blog</a></li>
                         <li><a href="#">Commencer</a></li>
+                        <li><a href="catalogue.html">Partir</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-
-
     </header>
     <!-- HEADER END============================================= -->
     <!-- START CORPS================================================ -->
-    <div class="container-fluid">
-        <div class="row">
-            <img src="image/img1lp.jpg" alt="photo" class="img-responsive img-en-tete" />
-        </div>
+    <div class="container-fluid" id="container-img">
+    </div>
+
+<section class="container-fluid">
+
         <div class="container">
             <div class="row">
-                <div class="col-md-offset-2 col-md-5 test">
-                    <h1 class="bleu">Nom</h1>
+                <div class="col-md-offset-2 col-md-6">
+                    <h1 class="h2-profil">Nom</h1>
 
-                    <h2 class="bleu">Descriptif</h2>
+                    <h2 class="h2-profil">Descriptif</h2>
 
-                    <div class="test">
+                    <div>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                             in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -73,21 +74,27 @@
 
                     <img src="image/img1lp.jpg" alt="photo" class="img-responsive" />
 
-                    <h2 class="bleu">Les experiences des voyageurs</h2>
-
-                    <div class="test">
+                    <h2 class="h2-profil titre-experience">Les experiences des voyageurs</h2>
+                    <p class="titre-commentaire">
+                        Commentaire de Johan
+                    </p>
+                    <div class="commentaire">
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                         </p>
                     </div>
-
-                    <div class="test">
+                    <p class="titre-commentaire">
+                        Commentaire de Nico
+                    </p>
+                    <div class="commentaire">
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                         </p>
                     </div>
-
-                    <div class="test">
+                    <p class="titre-commentaire">
+                        Commentaire de Manu
+                    </p>
+                    <div class="commentaire">
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                         </p>
@@ -98,23 +105,21 @@
                 </div>
                 <div class="col-md-3">
                     <div class="fond-engagement">
-                        <h2>Engagement</h2>
-                        <ul>
-                            <li>bla bla</li>
-                            <li>bla bla</li>
-                            <li>bla bla</li>
-                            <li>bla bla</li>
-                            <li>bla bla</li>
-                            <li>bla bla</li>
-                            <li>bla bla</li>
+                        <h2 class="h2-engagement">Engagement</h2>
+                        <ul class="list-unstyled">
+                            <li>Ce restaurant propose une carte entière de plats végétariens et également des plats végétaliens ou sans gluten. Ce que nous avons préféré c’est que tout est très clairement précisé sur le Menu qui dispose même d’une page d’index, précisant les significations de « bio », « végétarien », « végétalien »….</li>
+                            <li>Plusieurs de leurs produits sont bio et ils offrent volontiers des doggy-bags. Ils proposent quelques produits eco-friendly à la vente comme une huile d’olive bio des t-shirt et des sacs en toile.</li>
+                            <li>On aurait aimé encore plus s’il n’y avait pas eu de clim ‘ et si les produits étaient plutôt des recettes localees.</li>
                         </ul>
 
                     </div>
-                    <div>
-                        <h2 class="bleu">Info pratique</h2>
+                    <div class="info-pratique">
+                        <h2 class="h2-profil">Info pratique</h2>
+                        <p><i class="fa fa-envelope vert"></i> cornertreecafe@gmail.com</p>
+                        <p><i class="fa fa-map-marker vert"></i> 150 Jupiter Street, Bel-Air, Makati City, Metro Manila</p>
+                        <p><i class="fa fa-phone vert"></i> +63 906 558-6177 <a class="vert" href="http://cornertreecafe.com/">http://cornertreecafe.com/</a></p>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            Ouvert tous les jours de 11h à 22h (la cuisine ferme à 21h30)
                         </p>
                         <img src="http://placehold.it/300x300" alt="map" class="img-responsive" />
                     </div>
@@ -124,8 +129,7 @@
             </div>
 
         </div>
-    </div>
-
+<section/>
 
 
 
