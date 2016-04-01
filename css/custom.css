@@ -7,7 +7,8 @@ body {
 }
 
 h1 {
-  font-size: 7vw;
+  font-size: 60px;
+
 }
 
 h1, h3 {
@@ -22,15 +23,17 @@ h4 {
 /*
 
    ========================================================================== */
+button{
+  border: none;
 
-.section {
-  height: auto;
 }
-
-.paysage {
-  padding: 200px 0;
+section{
+  display: flex;
+  padding: 20px 0;
 }
-
+.paysage{
+  min-height: 500px;
+}
 .text {
   background-color: #f8f8f0;
 }
@@ -43,6 +46,9 @@ h4 {
   color: white;
   background-image: url('../image/img3lp.JPG');
   background-size: cover;
+  flex-direction: column;
+  justify-content: flex-end;
+  /*vertical-align: bottom;*/
 }
 
 #voyacteur button, #other button {
@@ -106,8 +112,9 @@ h4 {
   background-size: cover;
 }
 
-#ghandi h3 {
-  font-size: 70px;
+#ghandi h1 {
+  width: 500px;
+  font-size: 60px;
 }
 
 /*
@@ -188,18 +195,43 @@ h4 {
    ========================================================================== */
 
 #contact {
+  padding: 50px 0;
   background-color: #434385;
+  color: #ebc84c;
 }
+#contact h3{
+  color: #ebc84c;
 
+  font-size: 40px;
+}
+#contact h4{
+  margin: 0 0 0 5px;
+  color:#33ccaf;
+
+}
 #contactez {
-  display: inline-flex;
-}
+  display:flex;
+  flex-direction: column;
+  padding: 10px;
 
+}
+#suivez{
+  padding: 10px;
+}
+.nous{
+  color:#33ccaf;
+}
 #lettre {
   width: 150px;
   height: 150px;
 }
-
+.liens img{
+  width: 25px;
+  height: 25px;
+}
+#mail,#telephone,#map{
+  display: inline-flex;
+}
 /*
 
    ========================================================================== */
