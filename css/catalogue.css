@@ -3,12 +3,11 @@ body{
     font-family: "Open Sans";
 }
 
-h3{
-    margin-bottom: 0;
+.nometablissement{
     display: inline-block;
 }
 
-h3 a{
+.nometablissement a{
     font-family: "Sue Ellen Francisco";
     color : #33ccaf;
     font-size: 32px;
@@ -20,8 +19,9 @@ a:hover{
     color:#33ccaf;
 }
 
-p{
+.cataloguetags{
     font-style: italic;
+    margin-top: 1.5rem;
 }
 
 .typeetablisssement{
@@ -31,17 +31,26 @@ p{
     font-size: 2rem;
 }
 
-p a{
+.lieuetablissement{
+    color:#444485;
+}
+
+.cataloguetags a{
     color : #33ccaf;
 }
 
 .section1{
     margin-bottom: 6rem;
+    margin-top: 3rem;
 }
 
-article{
+.descriptif{
     border-left: solid 1px rgba(0, 0, 0, 0.1);
     border-right: solid 1px rgba(0, 0, 0, 0.1);
     border-bottom: solid 3px #33ccaf;
     padding-left: 2rem;
+}
+
+.imgcatalogue{
+    border-radius: 1%
 }
