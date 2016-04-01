@@ -7,6 +7,7 @@
 .navbar{
     border: none;
     margin: 0;
+    z-index: 1;
 }
 .navbar .container-fluid{
     background-color: #33CCAF;
@@ -19,10 +20,18 @@
     color: #444485;
     font-family: 'Sue Ellen Francisco', cursive;
     font-size: 1.8em;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 45px;
+
 }
 .navbar-right{
     padding-right: 2em;
 }
+.nav>li>a>img {
+    margin-top: 5px;
+}
+
 /*fin navbar*/
 .container-fluid, .container{
     background-color: #F8F8F0;
@@ -41,15 +50,28 @@
 .bleu{
     color: #444485;
 }
+.h1-profil{
+    font-size: 32px;
+    font-family: 'Sue Ellen Francisco', cursive;
+    color: #33CCAF;
+    display: inline-block;
+}
+.span-profil{
+    color: #33CCAF;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 1.5em;
+    margin-left: 1.5rem;
+}
 .h2-profil{
     color: #444485;
     font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 24px;
 }
 .h2-engagement{
     font-family: 'Sue Ellen Francisco', cursive;
     margin-top: 0;
     color: #444485;
-
+    font-size: 24px;
 }
 .info-pratique a:hover{
     color: #1b8d71;
