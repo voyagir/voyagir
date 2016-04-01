@@ -7,6 +7,16 @@ body{
     width: 70rem;
 }
 
+.lienmenugauche{
+    text-decoration: none;
+    color:#f8f8f0;
+}
+
+.menugauche{
+    background-color: #444485;
+    color:#f8f8f0;
+}
+
 .boutongauche{
     text-align: left;
 }
