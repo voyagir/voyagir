@@ -1,7 +1,23 @@
 .test{
     border: 1px solid black;
 }
-
+.navbar{
+    border: none;
+    margin: 0;
+}
+.navbar .container-fluid{
+    background-color: #33CCAF;
+}
+.navbar-brand{
+    padding: 5px;
+    padding-left: 2em;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #444485;
+}
+.navbar-right{
+    padding-right: 2em;
+}
 .container-fluid{
     background-color: #f8f8fd;
 }
