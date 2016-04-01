@@ -204,15 +204,25 @@ h4 {
 
    ========================================================================== */
 
+footer .special {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  justify-content: center;
+}
+
 footer .text {
   padding: 50px 0;
 }
 
 footer button {
   margin: auto;
+  padding: 5px 10px;
+  text-align: center;
 }
 
 footer img {
+  margin:  5px;
   width: 20px;
   height: auto;
 }
