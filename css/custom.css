@@ -1,0 +1,46 @@
+/*LANDING PAGE========================*/
+#voyacteur{
+  background-image: url("../image/img3lp.JPG");
+  background-size: cover;
+}
+#other{
+  background-image: url('../image/img1lp.jpg');
+  background-size: cover;
+}
+#gandhi{
+  background-image: url('../image/img2lp.JPG');
+  background-size: cover;
+}
+
+.section{
+  height: auto;
+}
+.paysage{
+  padding: 200px;
+}
+ .couleur{
+   padding: 30px;
+  background-color: #33CCAF;
+}
+footer img{
+  width: 20px;
+  height: auto;
+}
+footer p{
+  text-align: center;
+  color: white;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+h1,h3{
+  color: white;
+  font-family: 'Sue Ellen Francisco', cursive;
+}
+#ghandi h3{
+  font-size: 70px;
+}
+h4{
+  color: white;
+}
