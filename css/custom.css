@@ -1,4 +1,6 @@
-/*LANDING PAGE========================*/
+/* ==========================================================================
+   landing page
+   ========================================================================== */
 
 body {
   font-family: 'Open-Sans', sans-serif;
@@ -7,6 +9,7 @@ body {
 h1 {
   font-size: 7vw;
 }
+
 h1, h3 {
   font-family: 'Sue Ellen Francisco', cursive;
   color: white;
@@ -16,69 +19,133 @@ h4 {
   color: white;
 }
 
-#voyacteur {
-  background-image: url('../image/img3lp.JPG');
-  background-size: cover;
-  color:white;
-}
-#voyacteur button, #other button{
-  color: #434385;
-  background-color:#ebc84c;
-  border-style: solid;
-  border-color: #9D7C12;
-  padding: 5px 10px;
-  border-radius: 10px;
-}
-#other {
-  text-align: right;
-  background-image: url('../image/img1lp.jpg');
-  background-size: cover;
-  color: white;
-}
+/*
 
-#gandhi {
-  text-align: right;
-  background-image: url('../image/img2lp.JPG');
-  background-size: cover;
-}
-#ghandi h3 {
-  font-size: 70px;
-}
-#recommandations, #info{
-  padding: 50px;
-}
-#recommandations article {
-  display: flex;
-  flex-direction: column;
-}
-#recommandations button{
-  color: white;
-  background-color: #33ccaf;
-  padding: 5px 10px;
-  border-radius: 10px;
-  border-style: solid;
-  border-color: #1F806D;
-}
+   ========================================================================== */
+
 .section {
   height: auto;
 }
 
 .paysage {
-  padding: 200px;
+  padding: 200px 0;
 }
 
 .text {
   background-color: #f8f8f0;
 }
 
-.couleur {
-  padding: 30px;
+/*
+
+   ========================================================================== */
+
+#voyacteur {
+  color: white;
+  background-image: url('../image/img3lp.JPG');
+  background-size: cover;
+}
+
+#voyacteur button, #other button {
+  padding: 5px 10px;
+  color: #434385;
+  border-radius: 10px;
+  background-color: #ebc84c;
+}
+
+/*
+
+   ========================================================================== */
+
+#inform article {
+  display: flex;
+  flex-direction: column;
+}
+
+#inform img {
+  height: 100px;
+  margin: auto;
+}
+
+/*
+
+   ========================================================================== */
+
+#voyagis h3, #voyagis p {
+  text-align: center;
+  color: #434385;
+}
+
+#partage h3, #partage p {
+  text-align: center;
+  color: #ebc84c;
+}
+
+#organise h3, #organise p {
+  text-align: center;
+  color: #ff2554;
+}
+
+/*
+
+   ========================================================================== */
+
+#other {
+  text-align: right;
+  color: white;
+  background-image: url('../image/img1lp.jpg');
+  background-size: cover;
+}
+
+/*
+
+   ========================================================================== */
+
+#gandhi {
+  text-align: right;
+  background-image: url('../image/img2lp.JPG');
+  background-size: cover;
+}
+
+#ghandi h3 {
+  font-size: 70px;
+}
+
+/*
+
+   ========================================================================== */
+
+#recommandations, #inform {
+  padding: 50px 0;
+}
+
+#recommandations h3 {
+  color: #33ccaf;
+}
+
+#recommandations article {
+  display: flex;
+  flex-direction: column;
+}
+
+#recommandations button {
+  padding: 5px 10px;
+  color: white;
+  border-style: solid;
   background-color: #33ccaf;
 }
 
+.def_rec {
+  color: grey;
+}
+
+.couleur {
+  padding: 30px 0;
+  background-color: #33ccaf;
+}
 
 .percent {
-  display: flex;
+  width: 200px;
+  margin: 20px;
 }
 
 .percent p {
@@ -86,7 +153,6 @@ h4 {
   font-size: 75px;
   height: 150px;
   margin: auto;
-  /*text-align: center;*/
 }
 
 #vert {
@@ -117,12 +183,35 @@ h4 {
   background-position: center;
 }
 
-footer .text {
-  padding: 50px;
+/*
+
+   ========================================================================== */
+
+#contact {
+  background-color: #434385;
 }
-footer button{
+
+#contactez {
+  display: inline-flex;
+}
+
+#lettre {
+  width: 150px;
+  height: 150px;
+}
+
+/*
+
+   ========================================================================== */
+
+footer .text {
+  padding: 50px 0;
+}
+
+footer button {
   margin: auto;
 }
+
 footer img {
   width: 20px;
   height: auto;
@@ -134,7 +223,7 @@ footer .text p {
   color: #434385;
 }
 
-.couleur p, .social {
+.couleur p, .socialf {
   text-align: center;
   color: white;
 }
