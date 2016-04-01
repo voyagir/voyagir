@@ -5,6 +5,7 @@ body{
 
 h3{
     margin-bottom: 0;
+    display: inline-block;
 }
 
 h3 a{
@@ -24,9 +25,23 @@ p{
 }
 
 .typeetablisssement{
-    color:#444485;
+    color:#33ccaf;
+    font-family: "Sue Ellen Francisco";
+    margin-left: 1.5rem;
+    font-size: 2rem;
 }
 
 p a{
     color : #33ccaf;
+}
+
+.section1{
+    margin-bottom: 6rem;
+}
+
+article{
+    border-left: solid 1px rgba(0, 0, 0, 0.1);
+    border-right: solid 1px rgba(0, 0, 0, 0.1);
+    border-bottom: solid 3px #33ccaf;
+    padding-left: 2rem;
 }
