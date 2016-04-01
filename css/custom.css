@@ -16,9 +16,10 @@
   height: auto;
 }
 .paysage{
-  padding: 100px;
+  padding: 200px;
 }
  .couleur{
+   padding: 30px;
   background-color: #33CCAF;
 }
 footer img{
@@ -27,6 +28,11 @@ footer img{
 }
 footer p{
   text-align: center;
+  color: white;
+}
+footer a{
+  text-decoration: none;
+  color: white;
 }
 h1,h3{
   color: white;
