@@ -1,6 +1,9 @@
-.test{
-    border: 1px solid black;
+#container-img{
+    height: 350px;
+    background-image: url("../image/img3lp.JPG");
+    background-size: cover;
 }
+/*debut navbar*/
 .navbar{
     border: none;
     margin: 0;
@@ -14,20 +17,56 @@
 }
 .navbar-default .navbar-nav>li>a {
     color: #444485;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 1.8em;
 }
 .navbar-right{
     padding-right: 2em;
 }
-.container-fluid{
-    background-color: #f8f8fd;
+/*fin navbar*/
+.container-fluid, .container{
+    background-color: #F8F8F0;
 }
 
 .fond-engagement{
     background-color: #33CCAF;
+    padding: 20px;
+}
+.fond-engagement ul li{
+    margin-top: 2em;
 }
 .vert{
     color: #33CCAF;
 }
 .bleu{
     color: #444485;
+}
+.h2-profil{
+    color: #444485;
+    font-family: 'Sue Ellen Francisco', cursive;
+}
+.h2-engagement{
+    font-family: 'Sue Ellen Francisco', cursive;
+    margin-top: 0;
+    color: #444485;
+
+}
+.info-pratique a:hover{
+    color: #1b8d71;
+    text-decoration: underline;
+}
+.commentaire{
+    background-color: white;
+    box-shadow: 0 0 3px rgba(0,0,0,.2);
+}
+.titre-commentaire{
+    font-family: 'Sue Ellen Francisco', cursive;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.titre-experience{
+    margin-top: 40px;
 }
