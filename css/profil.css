@@ -3,55 +3,6 @@
     background-image: url("../image/catalogue1.jpg");
     background-size: cover;
 }
-/*debut navbar*/
-.navbar{
-    border: none;
-    margin: 0;
-    z-index: 1;
-}
-.navbar .container-fluid{
-    background-color: #33CCAF;
-}
-.navbar-brand{
-    padding: 5px;
-    padding-left: 2em;
-}
-.navbar-default .navbar-nav>li>a {
-    color: #444485;
-    font-family: 'Sue Ellen Francisco', cursive;
-    font-size: 1.8em;
-    padding-top: 0;
-    padding-bottom: 0;
-    line-height: 45px;
-
-}
-.navbar-right{
-    padding-right: 2em;
-}
-.nav>li>a>img {
-    margin-top: 8px;
-}
-.dropdown-menu{
-    background-color: #33CCAF;
-}
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-    background-color: #33CCAF;
-}
-.dropdown-menu>li>a{
-    font-family: 'Sue Ellen Francisco', cursive;
-    color: #444485;
-    font-size: 24px;
-}
-.dropdown-menu>li>a:hover {
-    color: #262626;
-    text-decoration: none;
-    background-color: #33CCAF;
-}
-.nav li .iconftp{
-    padding-right:5px;
-    padding-left: 5px;
-}
-/*fin navbar*/
 .container-profil{
     background-color: #F8F8F0;
     padding-top: 0;
