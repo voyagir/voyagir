@@ -1,116 +1,116 @@
 /*modifier image d'en-tete*/
-#container-img-profil1{
-    height: 300px;
-    background-image: url("../image/pasta.jpg");
-    background-size: cover;
-}
-#container-img-profil2{
-    height: 300px;
-    background-image: url("../image/corner-tree.jpg");
-    background-size: cover;
-}
-#container-img-profil3{
-    height: 300px;
-    background-image: url("../image/La-Fabrica-800x434.jpg");
-    background-size: cover;
-}
 
-.container-profil{
-    background-color: #F8F8F0;
-    padding-top: 0;
+#container-img-profil1 {
+  height: 300px;
+  background-image: url('../image/pasta.jpg');
+  background-size: cover;
 }
-.fond-engagement{
-    background-color: #33CCAF;
-    padding: 20px;
+#container-img-profil2 {
+  height: 300px;
+  background-image: url('../image/corner-tree.jpg');
+  background-size: cover;
 }
-.fond-engagement ul li{
-    margin-top: 2em;
+#container-img-profil3 {
+  height: 300px;
+  background-image: url('../image/La-Fabrica-800x434.jpg');
+  background-size: cover;
 }
-.vert{
-    color: #33CCAF;
+.container-profil {
+  padding-top: 0;
+  background-color: #f8f8f0;
 }
-.bleu{
-    color: #444485;
+.fond-engagement {
+  padding: 20px;
+  background-color: #33ccaf;
 }
-.h1-profil{
-    font-size: 46px;
-    font-family: 'Sue Ellen Francisco', cursive;
-    color: #33CCAF;
-    display: inline-block;
+.fond-engagement ul li {
+  margin-top: 2em;
 }
-.localisation{
-    font-size: 1.3em
+.vert {
+  color: #33ccaf;
 }
-.img-descriptif{
-    margin: auto;
+.bleu {
+  color: #444485;
 }
-.span-profil{
-    color: #33CCAF;
-    font-family: 'Sue Ellen Francisco', cursive;
-    font-size: 1.5em;
-    margin-left: 1.5rem;
+.h1-profil {
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 46px;
+  display: inline-block;
+  color: #33ccaf;
 }
-.h2-profil{
-    color: #444485;
-    font-family: 'Sue Ellen Francisco', cursive;
-    font-size: 24px;
+.localisation {
+  font-size: 1.3em;
 }
-.h2-engagement{
-    font-family: 'Sue Ellen Francisco', cursive;
-    margin-top: 0;
-    color: #444485;
-    font-size: 24px;
+.img-descriptif {
+  margin: auto;
 }
-.h3-engagement{
-    color: white;
-    font-family: 'Sue Ellen Francisco', cursive;
-    font-size: 20px;
-    margin-bottom: 0;
-    margin-top: 11px;
+.span-profil {
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 1.5em;
+  margin-left: 1.5rem;
+  color: #33ccaf;
 }
-.case-engagement-gauhe{
-    padding-left: 10px;
-    padding-right: 10px;
+.h2-profil {
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 24px;
+  color: #444485;
 }
-.img-engagement{
-    border-radius: 50%;
-    margin-top: 15px;
-    height: 40px;
+.h2-engagement {
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 24px;
+  margin-top: 0;
+  color: #444485;
 }
-.case-engagement-droit{
-    border-bottom: 2px dashed white;
-    padding: 0;
+.h3-engagement {
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 20px;
+  margin-top: 11px;
+  margin-bottom: 0;
+  color: white;
 }
-.last-engagement{
-    border: none;
+.case-engagement-gauhe {
+  padding-right: 10px;
+  padding-left: 10px;
 }
-.fond-engagement h4{
-    color: #3F3F53;
-    font-family: 'Sue Ellen Francisco', cursive;
-    font-size: 22px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+.img-engagement {
+  height: 40px;
+  margin-top: 15px;
+  border-radius: 50%;
 }
-.fond-engagement p{
-    margin-top: 2px;
-    opacity: 0.9;
+.case-engagement-droit {
+  padding: 0;
+  border-bottom: 2px dashed white;
 }
-.info-pratique a:hover{
-    color: #1b8d71;
-    text-decoration: underline;
+.last-engagement {
+  border: none;
 }
-.commentaire{
-    background-color: white;
-    box-shadow: 0 0 3px rgba(0,0,0,.2);
+.fond-engagement h4 {
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 22px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #3f3f53;
 }
-.titre-commentaire{
-    font-family: 'Sue Ellen Francisco', cursive;
-    margin-top: 25px;
-    margin-bottom: 5px;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 20px;
+.fond-engagement p {
+  margin-top: 2px;
+  opacity: .9;
 }
-.titre-experience{
-    margin-top: 40px;
+.info-pratique a:hover {
+  text-decoration: underline;
+  color: #1b8d71;
+}
+.commentaire {
+  background-color: white;
+  box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+}
+.titre-commentaire {
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+.titre-experience {
+  margin-top: 40px;
 }
