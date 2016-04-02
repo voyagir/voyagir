@@ -46,9 +46,6 @@ section {
 .div_button {
   display: flex;
 }
-.cache{
-opacity: 0;
-}
 /*
 
    ========================================================================== */
@@ -167,8 +164,9 @@ opacity: 0;
   text-align: right;
   color: white;
   background-image: url('../image/img1lp.jpg');
-  background-position: center;
+  /*background-position: center;*/
   background-size: cover;
+  background-repeat: no-repeat;
   justify-content: center;
 }
 #other button {
