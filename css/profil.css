@@ -1,8 +1,20 @@
-#container-img{
+/*modifier image d'en-tete*/
+#container-img-profil1{
     height: 300px;
-    background-image: url("../image/catalogue1.jpg");
+    background-image: url("../image/pasta.jpg");
     background-size: cover;
 }
+#container-img-profil2{
+    height: 300px;
+    background-image: url("../image/corner-tree.jpg");
+    background-size: cover;
+}
+#container-img-profil3{
+    height: 300px;
+    background-image: url("../image/La-Fabrica-800x434.jpg");
+    background-size: cover;
+}
+
 .container-profil{
     background-color: #F8F8F0;
     padding-top: 0;
