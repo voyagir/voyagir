@@ -27,10 +27,10 @@ h4 {
    ========================================================================== */
 
 button {
+  width: auto;
   padding: 5px 10px;
   border: none;
   border-radius: 10px;
-  width: auto;
 }
 section {
   display: flex;
@@ -46,6 +46,7 @@ section {
 .div_button {
   display: flex;
 }
+
 /*
 
    ========================================================================== */
@@ -164,9 +165,9 @@ section {
   text-align: right;
   color: white;
   background-image: url('../image/img1lp.jpg');
+  background-repeat: no-repeat;
   /*background-position: center;*/
   background-size: cover;
-  background-repeat: no-repeat;
   justify-content: center;
 }
 #other button {
