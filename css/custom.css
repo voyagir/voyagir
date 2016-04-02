@@ -337,10 +337,6 @@ section {
   width: 30px;
 }
 
-/*.contact_social div a{
-  margin: 0 10px;
-}*/
-
 
 /*
 
@@ -379,9 +375,40 @@ footer a {
   color: white;
 }
 
-/*
-
+/* ==========================================================================
+   coming-soon
    ========================================================================== */
+#coming{
+  background-image: url("../image/imgCS.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.container{
+  max-width: 900px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#coming h1 h2{
+  color: white;
+  margin: auto;
+}
+.boutons{
+  display: flex;
+  justify-content: space-between;
+}
+.boutons button{
+
+    color: #434385;
+    background-color: #ebc84c;
+  }
+
+
+/* ==========================================================================
+   @media
+   ========================================================================== */
+
 
 @media (max-width: 480px) {
   h1 {
