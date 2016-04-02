@@ -32,6 +32,11 @@ button {
   border: none;
   border-radius: 10px;
 }
+button:hover{
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+}
 section {
   display: -webkit-box;
   display: -webkit-flex;
@@ -136,6 +141,11 @@ section {
   color: #434385;
   background-color: #ebc84c;
 }
+#voyacteur button:hover{
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(255,255,255,0.75);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(255,255,255,0.75);
+  box-shadow: 0px 0px 5px 1px rgba(255,255,255,0.75);
+}
 /*
 
    ========================================================================== */
@@ -199,7 +209,12 @@ section {
   color: #434385;
   background-color: #ebc84c;
 }
+#other button:hover{
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(255,255,255,0.75);
+-moz-box-shadow: 0px 0px 5px 1px rgba(255,255,255,0.75);
+box-shadow: 0px 0px 5px 1px rgba(255,255,255,0.75);
 
+}
 /*
 
    ========================================================================== */
