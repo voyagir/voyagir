@@ -14,6 +14,7 @@
   <link href="https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco" rel="stylesheet" type="text/css">
   <!--css   -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
   <link href="css/custom.css" rel="stylesheet">
 </head>
 
@@ -70,7 +71,7 @@
     <div class="container">
       <h1>DEVENEZ VOY’ACTEUR</h1>
       <h2>Organisez votre voyage selon vos convictions</h2>
-      <button type="button" name="button" onclick="openLink('http://eepurl.com/bsHfBD')">Je m'inscris</button>
+      <button class="cache" type="button" name="button" onclick="openLink('http://eepurl.com/bsHfBD')">Je m'inscris</button>
     </div>
   </section>
   <!-- SECTION============== INFORM-->
@@ -80,7 +81,7 @@
       <div class="row">
 
         <article class="col-sm-4 col-xs-12" id="voyagis">
-          <a href="http://blog.voyagir.fr/quest-tourisme-durable-responsable"><img src="image/terre-15b.png" alt="terre" /></a>
+          <a href="http://blog.voyagir.fr/quest-tourisme-durable-responsable" class="cache log_anim"><img src="image/terre-15b.png" alt="terre" /></a>
           <h3>JE VOY’AGIS</h3>
           <p>
             Je pars au bout du monde ou reste chez moi, en optant pour un comportement responsable et en choisissant les établissements qui correspondent le mieux à mes convictions.
@@ -88,7 +89,7 @@
         </article>
 
         <article class="col-sm-4 col-xs-12" id="partage">
-          <a href="https://docs.google.com/forms/d/1MwylJ5T3EGcUq2LG-WT7qNZiuj8KikXO-Wz1l4-INJw/viewform?c=0&w=1"><img src="image/crayon-j.png" alt="crayon" /></a>
+          <a href="https://docs.google.com/forms/d/1MwylJ5T3EGcUq2LG-WT7qNZiuj8KikXO-Wz1l4-INJw/viewform?c=0&w=1" class="cache log_anim"><img src="image/crayon-j.png" alt="crayon" /></a>
           <h3>JE PARTAGE</h3>
           <p>
             Je rédige une notes sur l’engagement des établissements où je suis et ce qu’il pourrait améliorer. Je note les établissements déjà référencés pour confirmer leurs actions et ajouter plus d’info.
@@ -96,7 +97,7 @@
         </article>
 
         <article class="col-sm-4 col-xs-12" id="organise">
-          <a href="catalogue.html"><img src="image/map-15r.png" alt="map" /></a>
+          <a href="catalogue.html" class="cache log_anim"><img src="image/map-15r.png" alt="map" /></a>
           <h3>JE M’ORGANISE</h3>
           <p>
             J’organise mon voyage en fonction des critères qui me conviennent: respect de la biodiversité, gestion des déchets, rémunérations des employés locaux, respect des traditions locales…</p>
@@ -105,18 +106,18 @@
       </div>
 
       <div class="div_button">
-        <button type="button" name="button" onclick="openLink('http://eepurl.com/bsHfBD')">Je m'inscris</button>
+        <button class="cache" type="button" name="button" onclick="openLink('http://eepurl.com/bsHfBD')">Je m'inscris</button>
       </div>
     </div>
   </section>
 
   <!-- SECTION============== OTHER-->
 
-  <section class="row paysage" id="other">
+  <section class="row paysage" id="other" data-stellar-background-ratio="0.5">
     <div class="container">
       <h1>DEVENEZ VOY’ACTEUR</h1>
       <h2>Rendons accessible un Tourisme plus Responsable</h2>
-      <button type="button" name="button" onclick="openLink('http://eepurl.com/bsHfBD')">Je m'inscris</button>
+      <button class="cache" type="button" name="button" onclick="openLink('http://eepurl.com/bsHfBD')">Je m'inscris</button>
     </div>
   </section>
 
@@ -152,7 +153,7 @@
         </article>
       </div>
       <div class="div_button">
-        <button type="button" name="button" onclick="openLink('http://eepurl.com/bsHfBD')">Je m'inscris</button>
+        <button class="cache" type="button" name="button" onclick="openLink('http://eepurl.com/bsHfBD')">Je m'inscris</button>
       </div>
     </div>
   </section>
@@ -271,8 +272,17 @@
   <!-- js -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script type="text/javascript" src="js/myjs.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js">
-  </script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+  <script type="text/javascript">
+    $.stellar({
+      verticalScrolling: true,
+      verticalOffset: 0,
+      responsive: false,
+      scrollProperty: 'scroll',
+      parallaxBackgrounds: true,
+    });
+    $('#other').stellar();
   <script type="text/javascript">
     $('#lien_contact').on('click', function() //smooth scroll
       {
