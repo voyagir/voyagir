@@ -1,5 +1,5 @@
-# voyagir
-Site de Voy'Agir
+# Voyagir
+##Site de Voy'Agir
 
 ####Technologie utilisées :
 HTML CSS JS jQuery Bootstrap
