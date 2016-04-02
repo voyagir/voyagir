@@ -65,7 +65,7 @@ section {
 /*debut navbar*/
 
 .navbar {
-  z-index: 1;
+  z-index: 4;
   margin: 0;
   border: none;
 }
@@ -136,7 +136,6 @@ section {
   color: #434385;
   background-color: #ebc84c;
 }
-
 /*
 
    ========================================================================== */
@@ -483,9 +482,13 @@ footer a {
   background-image: url('../image/imgCS.jpg');
   background-position: center;
   background-size: cover;
+  height: 100vh;
+  display: flex;
+justify-content: center;
 }
-#coming.container {
-  display: -webkit-box;
+.comingsoon {
+/*margin-top: 300px;*/
+ display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -495,7 +498,6 @@ footer a {
       -ms-flex-direction: column;
           flex-direction: column;
   max-width: 800px;
-  height: 100vh;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -526,6 +528,9 @@ footer a {
    ========================================================================== */
 
 @media (max-width: 480px) {
+  /*background-image: url('../image/img3lp.JPG');
+  background-size: cover;*/
+
   h1 {
     font-size: 30px !important;
   }
