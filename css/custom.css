@@ -7,11 +7,16 @@ body {
   overflow-x: hidden;
 }
 h1 {
-  font-size: 60px;
+  font-size: 50px;
+  margin-bottom: 10px;
 }
 h1, h3 {
   font-family: 'Sue Ellen Francisco', cursive;
   color: white;
+}
+h2 {
+  margin-top: 0;
+  font-size: 18px;
 }
 h4 {
   color: white;
@@ -122,9 +127,12 @@ section {
   display: flex;
   flex-direction: column;
 }
-#inform img {
-  height: 100px;
+#inform a {
   margin: auto;
+}
+#inform img{
+  height: 100px;
+
 }
 #inform button {
   margin: 20px auto;
@@ -182,7 +190,6 @@ section {
   font-size: 40px;
   widthh: 500px;
 }
-
 
 /*
 
@@ -292,7 +299,7 @@ section {
 .nous {
   color: #33ccaf;
 }
-#lettre,#fleche {
+#lettre, #fleche {
   width: 75px;
   height: 75px;
 }
@@ -313,27 +320,28 @@ section {
   vertical-align: baseline;
   font-size: 16px;
 }
-.items{
+.items {
   display: flex;
   flex-direction: column;
 }
-.items div{
+.items div {
   display: flex;
-
 }
-
 .contact_social {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .contact_social img {
-  margin: 10px ;
+  margin: 10px;
   width: 30px;
 }
+
 /*.contact_social div a{
   margin: 0 10px;
 }*/
+
+
 /*
 
    ========================================================================== */
@@ -369,4 +377,45 @@ footer .text p {
 footer a {
   text-decoration: none;
   color: white;
+}
+
+/*
+
+   ========================================================================== */
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 30px !important;
+  }
+  h2 {
+    font-size: 10px !important;
+  }
+  h3 {
+    font-size: 18px !important;
+  }
+  h4 {
+    font-size: 12px !important;
+  }
+  p {
+    font-size: 12px !important;
+  }
+  button {
+    font-size: 10px;
+  }
+  #recommandations h3{
+    text-align: center;
+  }
+  .percent{
+    width: 150px;
+  }
+  #contact h3{
+    font-size: 25px !important;
+    margin-top: 10px;
+  }
+  #lettre, #fleche {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+  }
+
 }
