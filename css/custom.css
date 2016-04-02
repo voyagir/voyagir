@@ -15,8 +15,8 @@ h1, h3 {
   color: white;
 }
 h2 {
-  margin-top: 0;
   font-size: 18px;
+  margin-top: 0;
 }
 h4 {
   color: white;
@@ -54,46 +54,46 @@ section {
 /*debut navbar*/
 
 .navbar {
-  border: none;
-  margin: 0;
   z-index: 1;
+  margin: 0;
+  border: none;
 }
 .navbar .container-fluid {
-  background-color: #33CCAF;
+  background-color: #33ccaf;
 }
 .navbar-brand {
   padding: 5px;
   padding-left: 2em;
 }
-.navbar-default .navbar-nav>li>a {
-  color: #444485;
+.navbar-default .navbar-nav > li > a {
   font-family: 'Sue Ellen Francisco', cursive;
   font-size: 1.8em;
+  line-height: 45px;
   padding-top: 0;
   padding-bottom: 0;
-  line-height: 45px;
+  color: #444485;
 }
 .navbar-right {
   padding-right: 2em;
 }
-.nav>li>a>img {
+.nav > li > a > img {
   margin-top: 8px;
 }
 .dropdown-menu {
-  background-color: #33CCAF;
+  background-color: #33ccaf;
 }
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-  background-color: #33CCAF;
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+  background-color: #33ccaf;
 }
-.dropdown-menu>li>a {
+.dropdown-menu > li > a {
   font-family: 'Sue Ellen Francisco', cursive;
-  color: #444485;
   font-size: 24px;
+  color: #444485;
 }
-.dropdown-menu>li>a:hover {
-  color: #262626;
+.dropdown-menu > li > a:hover {
   text-decoration: none;
-  background-color: #33CCAF;
+  color: #262626;
+  background-color: #33ccaf;
 }
 .nav li .iconftp {
   padding-right: 5px;
@@ -130,9 +130,8 @@ section {
 #inform a {
   margin: auto;
 }
-#inform img{
+#inform img {
   height: 100px;
-
 }
 #inform button {
   margin: 20px auto;
@@ -179,11 +178,11 @@ section {
    ========================================================================== */
 
 #ghandi {
+  display: flex;
   text-align: right;
   background-image: url('../image/img2lp.JPG');
   background-position: center;
   background-size: cover;
-  display: flex;
   justify-content: center;
 }
 #ghandi h1 {
@@ -309,16 +308,16 @@ section {
   /*padding-left: 110px;*/
 }
 .liens img {
-  vertical-align: baseline;
   width: 15px;
   height: 15px;
+  vertical-align: baseline;
 }
 .liens h4 {
   font-size: 12px;
 }
 .liens p {
-  vertical-align: baseline;
   font-size: 16px;
+  vertical-align: baseline;
 }
 .items {
   display: flex;
@@ -333,10 +332,9 @@ section {
   justify-content: space-between;
 }
 .contact_social img {
-  margin: 10px;
   width: 30px;
+  margin: 10px;
 }
-
 
 /*
 
@@ -378,71 +376,69 @@ footer a {
 /* ==========================================================================
    coming-soon
    ========================================================================== */
-#coming{
-  background-image: url("../image/imgCS.jpg");
+
+#coming {
+  background-image: url('../image/imgCS.jpg');
   background-position: center;
   background-size: cover;
 }
-.container{
-  max-width: 900px;
-  height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
+  max-width: 800px;
+  height: 100vh;
   justify-content: center;
 }
-#coming h1 h2{
+#coming h1, #coming h2 {
+  text-align: center;
   color: white;
-  margin: auto;
 }
-.boutons{
+.boutons {
   display: flex;
   justify-content: space-between;
 }
-.boutons button{
-
-    color: #434385;
-    background-color: #ebc84c;
-  }
-
+.boutons button {
+  margin-top: 100px;
+  color: #434385;
+  background-color: #ebc84c;
+}
 
 /* ==========================================================================
    @media
    ========================================================================== */
-
 
 @media (max-width: 480px) {
   h1 {
     font-size: 30px !important;
   }
   h2 {
-    font-size: 10px !important;
+    font-size: 14px !important;
   }
   h3 {
     font-size: 18px !important;
   }
   h4 {
-    font-size: 12px !important;
+    font-size: 14px !important;
   }
   p {
-    font-size: 12px !important;
+    font-size: 14px !important;
   }
   button {
-    font-size: 10px;
+    font-size: 14px;
   }
-  #recommandations h3{
+  #recommandations h3 {
     text-align: center;
   }
-  .percent{
+  .percent {
     width: 150px;
   }
-  #contact h3{
+  #contact h3 {
     font-size: 25px !important;
     margin-top: 10px;
   }
   #lettre, #fleche {
-    margin-right: 10px;
     width: 40px;
     height: 40px;
+    margin-right: 10px;
   }
-
 }
