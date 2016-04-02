@@ -59,6 +59,10 @@ a:hover{
     margin-bottom: 2rem;
 }
 
+.filtrepays{
+    color:#444485;
+}
+
 .divlogo{
     margin-right: 20px;
 }
@@ -79,7 +83,7 @@ a:hover{
 
 .section1{
     margin-bottom: 6rem;
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
 
 .descriptif{
