@@ -30,6 +30,7 @@ button {
   padding: 5px 10px;
   border: none;
   border-radius: 10px;
+  width: auto;
 }
 section {
   display: flex;
@@ -45,7 +46,9 @@ section {
 .div_button {
   display: flex;
 }
-
+.cache{
+opacity: 0;
+}
 /*
 
    ========================================================================== */
@@ -382,7 +385,7 @@ footer a {
   background-position: center;
   background-size: cover;
 }
-.container {
+#coming.container {
   display: flex;
   flex-direction: column;
   max-width: 800px;
