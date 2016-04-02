@@ -10,7 +10,7 @@ HTML CSS JS jQuery Bootstrap
 Le projet s'est concentré sur Front pendant le hackathon car porteuse de projet possède un dev back dans son entourage
 et les 3 ne sont pas encore au point sur le Back
 
-Technologie Back envisagée : PHP Symphonie MySQL avec création de plusieurs tables :
+Technologie Back envisagée : PHP Sympfony MySQL avec création de plusieurs tables :
 utilisateur
 établissements
 destination
